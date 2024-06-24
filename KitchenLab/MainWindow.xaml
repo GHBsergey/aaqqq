@@ -1,0 +1,21 @@
+﻿<Window x:Class="KitchenLab.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KitchenLab"
+        mc:Ignorable="d"
+        Title="MainWindow"  Height="550" Width="800"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Label Content="KitchenLab" HorizontalAlignment="Left" Margin="311.955,10,0,0" VerticalAlignment="Top" Width="132.678" FontSize="24"/>
+        <Label Content="ВХОД - РЕГИСТРАЦИЯ" HorizontalAlignment="Left" Margin="278,93,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label Content="ЛОГИН" HorizontalAlignment="Left" Margin="107,218,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <Label Content="ПАРОЛЬ" HorizontalAlignment="Left" Margin="107,320.5,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <TextBox x:Name="login" HorizontalAlignment="Left" Height="34" Margin="252,218,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="267" FontSize="20"/>
+        <TextBox x:Name="pass" HorizontalAlignment="Left" Height="34" Margin="252,320.5,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="267" FontSize="20"/>
+        <Button x:Name="loginbt" Content="ВОЙТИ" HorizontalAlignment="Left" Margin="295,390,0,0" VerticalAlignment="Top" Width="186" Height="40" FontSize="16" Click="loginbt_Click"/>
+        <Button x:Name="reg" Content="ЗАРЕГИСТРИРОВАТЬСЯ" HorizontalAlignment="Left" Margin="295,458,0,0" VerticalAlignment="Top" Width="186" Height="40" FontSize="16" Click="reg_Click"/>
+
+    </Grid>
+</Window>
